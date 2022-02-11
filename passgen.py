@@ -1,16 +1,16 @@
 # passgen.py
-
 # Created by Doug Leidgen, June 2021
 # This program can be freely distributed
 
 import random
 import string
+import sys
 try:
     import pyperclip
 except:
     print("Error: pyperclip not found.")
     print("Install the module with pip in order to copy the password to your clipboard")
-    print("Usage:  pip install pyperclip")
+    print("Usage:  pip3 install pyperclip")
 
 print("Your password will be printed below\n")
 
@@ -36,4 +36,5 @@ try:
 except:
     print("Password not copied to clipboard")
 
-
+del password
+sys.exit()
