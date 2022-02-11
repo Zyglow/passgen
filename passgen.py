@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/python3
 # passgen.py
 # Created by Doug Leidgen, June 2021
 # This program can be freely distributed
